@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: linear-gradient(to right, rgb(152, 155, 156), rgb(255, 255, 255));
+}
+
+.resume{
+    
+    width: 800px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+}
+
+.left{
+    background:#fff;
+    width: 350px;
+    padding: 0 20px;
+
+}
+.right{
+    width: calc(100% - 250px);
+
+}
+
+.left .img_holder{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.left .img_holder img{
+    width: 150px;
+    border-radius:20px ;
+}
+
+
+.pb{
+    padding-bottom: 20px;
+}
+
+.title h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.left .icon{
+    font-size:15px;
+}
+
+.contact_wrap .li_wrap h5{
+    margin-top: 10px;
+    font-size: medium;
+    color:rgb(3, 104, 104);
+}
+.contact_wrap .li_wrap1 h5{
+    margin-top: 10px;
+    font-size: medium;
+    color:rgb(3, 104, 104);
+}
+
+.education .title{
+    font-size: 30px;
+    margin: top 2.5em;;
+}
+
+.left .education{
+    margin-top:5px;
+    font-size:larger;
+}
+
+.left .education .li_wrap{
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.left .li_wrap .info_title{
+    color:rgb(3, 104, 104) ;
+}
+
+.left .li_wrap .date{
+    font-size: 12px;
+}
+
+.header{
+    padding: 10px 30px;
+    color:black;
+    height: 145px; 
+}
+.header  .name h1{
+    margin: 10px;
+    font-size: 41px;
+     color: rgb(3, 104, 104);
+}
+
+.header  .role{
+    margin: 9px;
+}
+
+.header  .about{
+    margin-top: 10px;
+    font-size: 15.5px;
+    margin-bottom: 10px;
+}
+
+.right_iner{
+    padding-left: 20px;
+    height: 250px;
+}
+
+.right_iner .li_wrap{
+    padding: 1px 25px;
+}
+
+.right_iner .project .title h2{
+    font-size: 26px;
+    padding: 10px 20px;
+}
+
+.right_iner .li_wrap .info .Pro_title{
+    font-size:17px;
+    font-weight: bold;
+    color:rgb(3, 104, 104);
+}
+.right_iner .li_wrap .info .about{
+    color:black;
+    font-size:15px;
+}
+
+.right_iner .li_wrap2{
+    padding: 10px 20px;
+}
+
+.right_iner .li_wrap2 .info .Pro_title{
+    font-size:17px;
+    font-weight: bold;
+    color:rgb(3, 104, 104);
+}
+
+.right_iner .li_wrap2 .info .about{
+    color:black;
+    font-size:15px;
+}
+
+.right_iner .li_wrap3{
+    padding: 10px 20px;
+}
+
+.right_iner .li_wrap3 .info .Pro_title{
+    font-size:17px;
+    font-weight: bold;
+    color:rgb(3, 104, 104);
+}
+
+.right_iner .li_wrap3 .info .about{
+    color:black;
+    margin-top: 10px;
+    font-size:15px;
+    margin-bottom: 10px;
+}
+
+.achiev .name{
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+.achiev .role{
+    padding-left: 30px;
+    font-size:15px;
+}
+
+.Last .skill .title2{
+    padding: 2px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40%;
+    
+
+}
+
+.Last{
+    float: left;
+}
+
+.Last .skill .info .name .title{
+    color:rgb(3, 104, 104);
+    padding-left: 20px;
+    font-weight: bold;
+}
+.Last .skill .info .name .language{
+    color:black;
+    padding: 10px 20px;
+}
+
+.last_one{
+    width: right;
+}
+
+.last_one .certi .title{
+    padding: 5px 20px;
+    font-size: 25px;
+    width: 40%;
+   float:right;
+   font-weight: bold;
+}
+.last_one .certi .info{
+    padding: 10px 20px;
+    padding-left: 230px;
+}
+
+.last_one .certi .info .name .nam{
+    color: rgb(3, 104, 104);
+    font-weight: bold;
+    padding-left:20px;
+}
+.last_one .certi .info .name .prog{
+    font-size:12px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.last_one .certi .info .name .des{
+    color:black;
+    padding-left: 18px;
+    font-size: medium;
+}
+
+.line{
+    width: 2px;
+    background-color:black;
+    height: 280px;
+    position: absolute;
+    right: 40.5%;
+}
